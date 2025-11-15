@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aadhaar Upload</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+    }
+
+    .box {
+        width: 400px;
+        padding: 30px;
+        background: rgba(255,255,255,0.15);
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+
+    .file-input {
+        margin-top: 20px;
+        padding: 12px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 10px;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    a {
+        display: block;
+        margin-top: 25px;
+        padding: 12px;
+        background: rgba(255,255,255,0.4);
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background: white;
+        transform: scale(1.05);
+    }
+</style>
+
+</head>
+<body>
+
+<div class="box">
+    <h2>Upload Aadhaar</h2>
+
+    <input class="file-input" type="file" accept="image/*">
+
+    <a href="signature.html">Back</a>
+    <a href="index.html">Close</a>
+</div>
+
+</body>
+</html>
